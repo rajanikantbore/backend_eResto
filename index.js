@@ -30,6 +30,6 @@ app.listen(PORT, () => {
   console.log(`Server is running successfully on ${PORT}`);
 });
 
-app.use("/home", (req, res) => {
+app.use("/", (req, res) => {
   res.send("<h1>Welcome to eResto</h1>");
 });
